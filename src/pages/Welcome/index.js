@@ -13,7 +13,7 @@ export default function Welcome() {
         {/* usando animação */}
         <Animatable.Image
           animation="flipInY"
-          source={require('../../assets/logo.png')}
+          source={require('../../assets/aleatorRegistrada2.png')}
           style={{ width: '100%' }}
           resizeMode="contain"
         />
@@ -32,11 +32,11 @@ export default function Welcome() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#38A69D'
+    backgroundColor: '#194C8B'
   },
   containerLogo: {
     flex: 2,
-    backgroundColor: '#38A69D',
+    backgroundColor: '#194C8B',
     justifyContent: 'center',
     alignItems: 'center'
   },
@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
   },
   button: {
     position: 'absolute',
-    backgroundColor: '#38A69D',
+    backgroundColor: '#194C8B',
     borderRadius: 50,
     paddingVertical: 8,
     width: '60%',
