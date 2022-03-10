@@ -13,7 +13,7 @@ export default function Welcome() {
         {/* usando animação */}
         <Animatable.Image
           animation="flipInY"
-          source={require('../../assets/aleatorRegistrada2.png')}
+          source={require('../../assets/aleatorRegistrada.png')}
           style={{ width: '100%' }}
           resizeMode="contain"
         />
