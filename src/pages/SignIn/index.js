@@ -7,7 +7,7 @@ export default function SignIn() {
   return (
     <View style={styles.container}>
       <Animatable.View animation="fadeInLeft" delay={500} style={styles.containerHeader}>
-        <Text style={styles.message}>Bem-vindo(a) ao Auto Gestão do Aleator Software</Text>
+        <Text style={styles.message}>Bem-vindo(a) a Auto Gestão do Aleator Software</Text>
       </Animatable.View>
       <Animatable.View animation="fadeInUp" style={styles.containerForm}>
         <Text style={styles.title}>Email</Text>
